@@ -9,12 +9,12 @@
 
   <ItemGroup>
     <None Remove="kitchen.jpg" />
-    <None Remove="pdf-edit.webp" />
+    <None Remove="pdf-edit.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="kitchen.jpg" />
-    <Resource Include="pdf-edit.webp" />
+    <Resource Include="pdf-edit.jpg" />
   </ItemGroup>
 
 </Project>

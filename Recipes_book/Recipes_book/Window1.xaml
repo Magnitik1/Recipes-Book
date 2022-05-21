@@ -17,7 +17,7 @@
 
         <Button x:Name="but" HorizontalAlignment="Left" Click="Button_Click" Margin="1033,5,0,0" VerticalAlignment="Top" Height="65" Width="65"  BorderBrush="White">
             <Button.Background>
-                <ImageBrush ImageSource="/pdf-edit.webp"/>
+                <ImageBrush ImageSource="/pdf-edit.jpg"/>
             </Button.Background>
         </Button>
         <TextBox PreviewTextInput="NameValidationTextBox" Name="name" HorizontalAlignment="Left" Margin="145,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="45" FontSize="30" IsReadOnly="True" BorderBrush="White" Foreground="Black"/>
