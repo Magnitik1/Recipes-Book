@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/kitchen.jpg"/>
         </Grid.Background>
-        <ListBox Name="q" MouseDoubleClick="q_MouseDoubleClick" Margin="43,144,43,124" SelectionChanged="ListBox_SelectionChanged"></ListBox>
+        <ListBox Name="q" Margin="43,144,43,124" SelectionChanged="ListBox_SelectionChanged"></ListBox>
         <Label FontWeight="Bold" Content="Filters:" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" FontSize="30"/>
         <Label FontWeight="Bold" Content="Type:" HorizontalAlignment="Left" Margin="28,74,0,0" VerticalAlignment="Top" Height="50" Width="76" FontSize="27"/>
         <ComboBox x:Name="type2" HorizontalAlignment="Left" Margin="109,82,0,0" VerticalAlignment="Top" Width="301" FontSize="25">

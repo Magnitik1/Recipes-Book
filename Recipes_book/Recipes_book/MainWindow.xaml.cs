@@ -143,9 +143,6 @@ public partial class MainWindow : Window {
         }
         return new string(temp.ToString());
     }
-    private void q_MouseDoubleClick(object sender, MouseButtonEventArgs e) {
-        ListBox_SelectionChanged(sender, null);
-    }
 
     private void CleanF(object sender, RoutedEventArgs e) {
         mint.Text = "";
