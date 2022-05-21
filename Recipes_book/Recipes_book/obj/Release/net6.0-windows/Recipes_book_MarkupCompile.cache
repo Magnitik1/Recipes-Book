@@ -1,18 +1,18 @@
 ﻿Recipes_book
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\aleks\source\repos\Recipes_book\Recipes_book\obj\Debug\net6.0-windows\
+C:\Users\aleks\source\repos\Recipes_book\Recipes_book\obj\Release\net6.0-windows\
 Recipes_book
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\aleks\source\repos\Recipes_book\Recipes_book\App.xaml
 21940794329
 
-6-1227070983
+4-303829845
 1942030480316
 MainWindow.xaml;Window1.xaml;
 
