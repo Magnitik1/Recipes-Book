@@ -118,4 +118,13 @@ public partial class Window1 : Window {
             Close();
         }
     }
+
+    private void recipe_KeyDown(object sender, KeyEventArgs e) {
+        if (cancel.Visibility==Visibility.Visible && e.Key == Key.Enter) {
+            var rec = sender as TextBox;
+            int y = rec.CaretIndex + 1;
+            rec.Text=recipe.Text.Insert(rec.CaretIndex,"\n");
+            rec.CaretIndex = y;
+        }
+    }
 }

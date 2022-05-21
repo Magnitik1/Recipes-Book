@@ -9,9 +9,9 @@
     <Grid Height="676" VerticalAlignment="Top">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF9EFFF1" Offset="0"/>
-                <GradientStop Color="#FFFC6363" Offset="1"/>
-                <GradientStop Color="#FFF4D583" Offset="0.733"/>
+                <GradientStop Color="#FFBFF6EE" Offset="0"/>
+                <GradientStop Color="#FFFD8B8B" Offset="1"/>
+                <GradientStop Color="#FFF4DB98" Offset="0.733"/>
             </LinearGradientBrush>
         </Grid.Background>
 
@@ -24,8 +24,8 @@
         <Label Content="Name:" HorizontalAlignment="Left" Margin="30,7,0,0" VerticalAlignment="Top" FontSize="35"/>
         <Button Name="save" Content="Save" HorizontalAlignment="Left" Height="62" Margin="569,579,0,0" VerticalAlignment="Top" Width="489" FontSize="35" Visibility="Hidden" Click="save_Click"/>
         <Button Name="cancel" Content="Cancel" HorizontalAlignment="Left" Height="62" Margin="62,579,0,0" VerticalAlignment="Top" Width="352" FontSize="35" Visibility="Hidden" Click="cancel_Click"/>
-        <TextBox VerticalScrollBarVisibility="Auto" Padding="10,0,10,0" x:Name="recipe" HorizontalAlignment="Left"  Margin="481,127,0,0" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="616" Height="447" IsReadOnly="True" HorizontalScrollBarVisibility="Auto"/>
-        <TextBox VerticalScrollBarVisibility="Auto" IsReadOnly="True" Padding="10,0,10,0" Name="ingridients" HorizontalAlignment="Left"  Margin="30,127,0,0" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="446" Height="447"/>
+        <TextBox VerticalScrollBarVisibility="Auto" KeyDown="recipe_KeyDown" Padding="10,0,10,0" x:Name="recipe" HorizontalAlignment="Left"  Margin="481,127,0,0" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="616" Height="447" IsReadOnly="True" HorizontalScrollBarVisibility="Auto"/>
+        <TextBox VerticalScrollBarVisibility="Auto" KeyDown="recipe_KeyDown" IsReadOnly="True" Padding="10,0,10,0" Name="ingridients" HorizontalAlignment="Left"  Margin="30,127,0,0" FontSize="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="446" Height="447"/>
         <Label Content="Time:" HorizontalAlignment="Left" Margin="134,66,0,0" VerticalAlignment="Top" FontSize="35"/>
         <Label Content="Type:" HorizontalAlignment="Left" Margin="495,61,0,0" VerticalAlignment="Top" FontSize="35"/>
         <TextBox Name="time" PreviewTextInput="timeValidationTextBox"  HorizontalAlignment="Left" Margin="231,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="43" FontSize="30" IsReadOnly="True" BorderBrush="White" Foreground="Black"/>
